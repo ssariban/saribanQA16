@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="AddressBook_main" target="1.5" />
+      <module name="AddressBook_test" target="1.5" />
+      <module name="sample-web-selenium-project_main" target="1.5" />
+      <module name="sample-web-selenium-project_test" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

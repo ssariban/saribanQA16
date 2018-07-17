@@ -1,0 +1,15 @@
+group 'TelRan16'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    Compile 'org.seleniumhq.selenium:selenium-java:3.13.0'
+    Compile 'org.testng:testng:6.14.3'
+}
