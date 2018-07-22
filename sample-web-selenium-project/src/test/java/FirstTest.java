@@ -1,4 +1,5 @@
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -9,11 +10,14 @@ import java.lang.*;
  * Created by Sergio on 15.07.2018.
  */
 public class FirstTest {
-    ChromeDriver wd;
+    //ChromeDriver wd;
+    FirefoxDriver wd;
     @BeforeMethod
     public void start(){
       //  System.setProperty("webdriver.chrome.driver", "C:\\Tools\\chromedriver.exe");
-        wd = new ChromeDriver();
+        //wd = new ChromeDriver();
+
+        wd = new FirefoxDriver();
 
     }
 
